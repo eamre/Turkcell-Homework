@@ -8,7 +8,6 @@ public interface UserService {
     void addUser(Customer user);
     List<Customer> getUsers();
     void deleteUser(Customer user);
-
     void updateUser(int id,Customer user);
 
 }
